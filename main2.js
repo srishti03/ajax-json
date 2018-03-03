@@ -6,7 +6,7 @@ var btn = document.getElementById("btn");
 
 btn.addEventListener("click", function (){
     var ourRequest = new XMLHttpRequest();
-    ourRequest.open('GET',"main.json");
+    ourRequest.open('GET',"https://srishti03.github.io/ajax-json/main.json");
     ourRequest.onload = function()
     {
         var data = JASON.parse(ourRequest.responseText);
