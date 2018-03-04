@@ -1,3 +1,16 @@
+
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: crimson;
+}
+
+.container1{
+    width:100%;
+    margin:auto;
+    background-color: darkgray;
+
 button{
  background-color: cornflowerblue;
  border:none;
@@ -6,17 +19,16 @@ button{
  color:white;
  padding;20px, 20px;
 }
-
-table, th, td {
+.table{
+    margin: auto;
     border: 2px solid black;
     border-collapse: collapse;
 }
-th, td {
-    padding: 15px;
+th,tr,td {
+    padding: 5px;
     height:auto;
     width:auto;
-    
-}
-th {
+    border-collapse: none;
     text-align: left;
+    border: solid 20px;
 }
