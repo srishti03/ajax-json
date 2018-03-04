@@ -1,0 +1,35 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: crimson;
+}
+
+.container1{
+    width:100%;
+    margin:auto;
+    background-color: darkgray;
+    
+}
+button{
+ background-color: cornflowerblue;
+ border:none;
+ margin:20px 20px;
+ height:35px;
+ color:white;
+ padding;20px, 20px;
+}
+
+.table1{
+    margin: auto;
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+th,tr,td {
+    padding: 5px;
+    height:auto;
+    width:auto;
+    border-collapse: none;
+    text-align: left;
+    border: solid 10px;
+}
