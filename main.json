@@ -1,24 +1,24 @@
 [
     {
-        "Book-name" : "The Immortals of Meluha",
+        "Book" : "The Immortals of Meluha",
         "Author" :"Amish Tripathi"
     },
     
     {
-        "Book-name" : "The Harry Potter Series",
+        "Book" : "The Harry Potter Series",
         "Author" : "J.K. Rowling"
     },
     {
-        "Book-name" : "The Lost Symbol",
+        "Book" : "The Lost Symbol",
         "Author" : "Dan Brown"
     },
     
     {
-        "Book-name" : "Fault in our stars",
+        "Book" : "Fault in our stars",
         "Author" : "John Green"
     },
     {
-        "Book-name" : "Honda Accord",
-        "Author" : "Rs. 43.21 lakh"
+        "Book" : "Sherlock Holmes",
+        "Author" : "Sir Arthur Conan Doyle"
     }
 ]
