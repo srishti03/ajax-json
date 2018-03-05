@@ -39,7 +39,7 @@ function function2() {
     var input, filter, table, tr, i, count=0;
     input = document.getElementById("input");
     filter = input.value.toUpperCase();
-    tr = table.getElementsByTagName("tr");
+    tr = table1.getElementsByTagName("tr");
     
     for(i = 0; i<tr.length ; i++) {
         
@@ -50,13 +50,12 @@ function function2() {
             if((td1.innerHTML.toUpperCase().indexOf(filter)+td2.innerHTML.toUpperCase().indexOf(filter))>-2){
                 tr[i].style.display = "";
                 count++;
-                document.getElementById("count").innerHTML=count;
                 }
             else{
                 tr[i].style.display = 'none';
-                document.getElementById("count").innerHTML=count;
+                
             }
-        }
+        }document.getElementById("count").innerHTML=count;
 
     }
     
